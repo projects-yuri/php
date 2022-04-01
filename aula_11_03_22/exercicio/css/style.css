@@ -1,0 +1,25 @@
+h1 {
+    margin: 3%;
+    color: black;
+    text-align: center;
+}
+
+body {
+    background-color: #d8b9ff;
+}
+
+.center {
+    text-align: center;
+}
+
+.test {
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+}
+
+.funciona {
+    font-size: 20px;
+    height: 30px;
+    width: 300px;
+}
