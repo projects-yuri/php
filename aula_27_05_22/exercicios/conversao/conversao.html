@@ -9,8 +9,18 @@
 </head>
 <body>
     <form action="conversao.php" method="GET">
-        <label for="">Monkey</label>
-
+        <p>Selectione uma opção:</p>
+        <label>
+            <input type="radio" value="ctof" id="ctof" name="option">
+            Celsius para Fahrenheit
+        </label>
+        <label for="ftoc">
+            <input type="radio" value="ftoc" id="ftoc" name="option">
+            Fahrenheit para Celsius
+        </label>
+        <input type="number" placeholder="Digite a temperatura" name="temperature" id="temperature">
+        <input type="submit" value="Converter">
     </form>
+    <img src="./c.svg" alt="Termômetro">
 </body>
 </html>
