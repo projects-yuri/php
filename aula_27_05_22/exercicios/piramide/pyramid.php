@@ -29,12 +29,9 @@
             {
                 for($i = 1; $i <= $num; $i++)
                 {
-                    for($a = 1; $a <= $i; $a++)
+                    for($a = 1; $a < $i; $a++)
                     {
-                        if($a != $i)
-                        {
-                            echo "<p>$a,</p>";
-                        }
+                        echo "<p>$a,</p>";
                     }
                     echo "<p>$i</p><br>";
                 }
@@ -48,12 +45,9 @@
             {
                 for($i = -1; $i >= $num; $i--)
                 {
-                    for($a = -1; $a >= $i; $a--)
+                    for($a = -1; $a > $i; $a--)
                     {
-                        if($a != $i)
-                        {
-                            echo "<p>$a,</p>";
-                        }
+                        echo "<p>$a,</p>";
                     }
                     echo "<p>$i</p><br>";
                 }
